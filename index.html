@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>K2 Test Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Web Fonts (Used for blocks) -->
+  <!-- TODO: Remove this after building for production -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,400italic' rel='stylesheet' type='text/css'>
+
+  <!-- Blocks CSS To Be Overriden -->
+  <link rel="stylesheet" href="blocks/css/blocks.css" />
+  <link rel="stylesheet" href="stylesheets/customizeblocks.css" />
+
+  <!-- Foundation App CSS -->
+  <link rel="stylesheet" href="stylesheets/app.css" />
+
+  <script src="blocks/js/jquery-1.7.2.min.js"></script>
+  <script src="javascripts/vendor/custom.modernizr.js"></script>
+  <script defer src="blocks/js/blocks.js"></script>
+
+</head>
+<body>
+  <section class="home">
+    <aside class="notes">
+      <h3 class="collapsible">Current Status</h3>
+      <div class="drawer">
+        <p>I've completed the first version of the mobile site page. Not everything is there (note the missing forrester report image at the top) but the interactions and responsiveness are there.</p>
+      </div>
+      <h3 class="collapsible">Project Site Instructions</h3>
+      <div class="drawer">
+        <p>This is the project site for the K2 formsondata mobile site. Using this site, you can preview the functionality of the final site.</p>
+      </div>
+    </aside>
+</section>
+<script>
+document.write('<script src=' +
+('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+'.js><\/script>')
+</script>
+</body>
+</html>

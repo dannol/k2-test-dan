@@ -1,0 +1,90 @@
+/* line 5, ../sass/customizeblocks.scss */
+html {
+  background: transparent !important;
+}
+
+/* line 9, ../sass/customizeblocks.scss */
+#esb.esb-home > header, #esb.esb-home > header nav.primary > ul > li {
+  border-top-color: #951b1e;
+}
+
+/* line 13, ../sass/customizeblocks.scss */
+#esb > header > h1, #esb > header > nav.primary > ul > li, #esb > section.notes > article > header h2, #esb > section.notes > article > aside.notes h3 {
+  font-family: 'Source Sans Pro';
+}
+
+/* line 17, ../sass/customizeblocks.scss */
+body {
+  font-family: 'Source Sans Pro', 'Helvetica', 'Helvetica Neue', Arial, Sans-Serif;
+}
+
+/* line 22, ../sass/customizeblocks.scss */
+#esb > section.grid > article {
+  overflow: hidden;
+}
+
+/* line 26, ../sass/customizeblocks.scss */
+#esb > section.notes > article > aside.notes p {
+  line-height: 1.75em;
+}
+
+/* line 31, ../sass/customizeblocks.scss */
+#esb.fullscreen > section.notes > article > section.viewport {
+  padding-top: 0;
+}
+
+/* line 35, ../sass/customizeblocks.scss */
+#esb > section.notes > article > section.viewport {
+  padding: 0px;
+}
+
+/* line 40, ../sass/customizeblocks.scss */
+menu.toolbar button, menu.toolbar .button {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  position: static;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 25px;
+  padding-right: 6px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  font-size: 1em;
+  background-color: #2ba6cb;
+  border-color: #2284a1;
+  color: white;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 65, ../sass/customizeblocks.scss */
+#esb > menu.toolbar button.previous, #esb > menu.toolbar button.next {
+  height: 35px;
+  line-height: 18px;
+  position: relative;
+}
+
+/* line 71, ../sass/customizeblocks.scss */
+#esb > menu.toolbar fieldset {
+  border-bottom: 5px solid #444;
+  width: 60px;
+  height: auto;
+}
+
+/* line 77, ../sass/customizeblocks.scss */
+#esb > menu.toolbar fieldset.pagination {
+  border-bottom-width: 3px;
+}
+
+/* line 81, ../sass/customizeblocks.scss */
+#esb > section.components > article > section.variation > section.viewport, #esb > section.grid > article > section.viewport {
+  padding: 0;
+  margin-top: 10px;
+}

@@ -1,0 +1,74 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#Two_days_will_help_you_master_Evernote_be_a_better_entrepreneu {
+    float: left;
+    font-size: 3em;
+    width: 1136.73314664px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    word-wrap: break-word;
+    color: rgb(62, 68, 79);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    font-family: source-sans-pro;
+    margin-top: 150px;
+    margin-left: 12.621359%;
+    clear: both;
+}
+
+#menu_png {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 41px;
+    left: auto;
+    z-index: 6;
+    clear: none;
+    max-height: 47.244094%;
+    right: 40px;
+    visibility: visible;
+}
+
+#logo_png {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 7;
+    margin-top: 23px;
+    margin-left: -94.271845%;
+    clear: none;
+}
+
+#header-bg {
+    float: left;
+    height: 127px;
+    width: 100%;
+    background-color: rgb(62, 68, 79);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+

@@ -1,0 +1,26 @@
+<prototype>
+	<metadata title="K2 Test Site">
+	    <client name="K2" />
+	    <version number="0.1" date="September 23, 2013" />
+	    <author name="Dan Larson" email="dan@crank211.com" />
+	</metadata>
+	<pages>
+	  <page id="foundationtest" title="Foundation Test" description="This is the awesomest foundation test page." doneness="approved"/>
+	</pages>
+	<components>
+	  <component id="topheader" title="Top Header" />
+	</components>
+	<display>
+	    <property name="markers" value="true" />
+	    <property name="toolbar" value="true" />
+	    <property name="toolbarlocation" value="topright" />
+	    <property name="componentcontainer" value="container_12" />
+	    <property name="homepage" value="on" />
+	    <property name="homelinks" value="" />
+	    <property name="responsiveviewing" value="on"/>
+		<property name="responsiveviewer" value="on"/>
+	</display>
+	<deviceprofiles>
+		<!-- Enable toggling between containers like iPad, iPhone //-->
+	</deviceprofiles>
+</prototype>
